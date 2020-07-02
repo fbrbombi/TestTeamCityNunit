@@ -1,12 +1,8 @@
 ﻿using NUnit.Allure.Core;
 using NUnit.Framework;
-using NUnit.Framework.Interfaces;
 using OpenQA.Selenium;
-using OpenQA.Selenium.Chrome;
-using OpenQA.Selenium.Remote;
 using System;
 using System.IO;
-using System.Reflection;
 using System.Threading;
 
 namespace TestTeamCity
