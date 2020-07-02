@@ -16,7 +16,7 @@ namespace TestTeamCity
 
     class Test
     {
-        ThreadLocal<IWebDriver> driver= new ThreadLocal<IWebDriver>();
+        ThreadLocal<IWebDriver> driver = new ThreadLocal<IWebDriver>();
         [OneTimeSetUp]
         public void beforeall()
         {
@@ -26,7 +26,7 @@ namespace TestTeamCity
         [SetUp]
         public void startBrowser()
         {
-             ChromeOptions chromeOption = new ChromeOptions();
+            ChromeOptions chromeOption = new ChromeOptions();
 
             chromeOption.AddArgument("headless");
 
@@ -43,13 +43,13 @@ namespace TestTeamCity
         [Test]
         public void test()
         {
-           
+
             //chromeOption.Proxy = proxy;
 
-          
+
             //Console.WriteLine(driver.Value.Url);
 
-           
+
         }
 
         [Test]
@@ -90,10 +90,10 @@ namespace TestTeamCity
 
             if (TestContext.CurrentContext.Result.Outcome != ResultState.Success)
             {
-               }
+            }
             //Console.WriteLine(driver.ToString());
             //driver.Value.Quit();
-            
+
         }
     }
 }
