@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "TestTeamCity.Test",
+    "children" : [ {
+      "name" : "test",
+      "uid" : "66d28f0e02746bc8",
+      "parentUid" : "b213b41d521fdd956683bc72c15b741c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593728764599,
+        "stop" : 1593728769622,
+        "duration" : 5023
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "TestTeamCity.Test"
+  } ]
+}

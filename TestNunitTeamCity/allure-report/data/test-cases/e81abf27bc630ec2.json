@@ -1,0 +1,134 @@
+{
+  "uid" : "e81abf27bc630ec2",
+  "name" : "test",
+  "fullName" : "TestTeamCity.Test.test",
+  "historyId" : "TestTeamCity.Test.test",
+  "time" : {
+    "start" : 1593728632350,
+    "stop" : 1593728635522,
+    "duration" : 3172
+  },
+  "description" : "\nstartBrowser SetUp method failed\n\ncloseBrowser TearDown method failed\n",
+  "descriptionHtml" : "<p>startBrowser SetUp method failed</p>\n<p>closeBrowser TearDown method failed</p>\n",
+  "status" : "failed",
+  "statusMessage" : "System.InvalidOperationException : session not created: This version of ChromeDriver only supports Chrome version 80 (SessionNotCreated)\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+  "statusTrace" : "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)\r\n   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)\r\n   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeOptions options)\r\n   at TestTeamCity.Test.startBrowser() in C:\\Users\\fbombiela\\OneDrive - ENDAVA\\Documents\\TeamCityNUNIT\\TestNunitTeamCity\\TestNunitTeamCity\\Test.cs:line 37\r\n--TearDown\r\n   at TestTeamCity.Test.closeBrowser() in C:\\Users\\fbombiela\\OneDrive - ENDAVA\\Documents\\TeamCityNUNIT\\TestNunitTeamCity\\TestNunitTeamCity\\Test.cs:line 90",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeall",
+    "time" : {
+      "start" : 1593728635507,
+      "stop" : 1593728635507,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "startBrowser",
+    "time" : {
+      "start" : 1593728635507,
+      "stop" : 1593728635507,
+      "duration" : 0
+    },
+    "status" : "failed",
+    "statusMessage" : "System.InvalidOperationException : session not created: This version of ChromeDriver only supports Chrome version 80 (SessionNotCreated)\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+    "statusTrace" : "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)\r\n   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)\r\n   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeOptions options)\r\n   at TestTeamCity.Test.startBrowser() in C:\\Users\\fbombiela\\OneDrive - ENDAVA\\Documents\\TeamCityNUNIT\\TestNunitTeamCity\\TestNunitTeamCity\\Test.cs:line 37\r\n--TearDown\r\n   at TestTeamCity.Test.closeBrowser() in C:\\Users\\fbombiela\\OneDrive - ENDAVA\\Documents\\TeamCityNUNIT\\TestNunitTeamCity\\TestNunitTeamCity\\Test.cs:line 90",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "\nstartBrowser SetUp method failed\n\ncloseBrowser TearDown method failed\n",
+    "status" : "failed",
+    "statusMessage" : "System.InvalidOperationException : session not created: This version of ChromeDriver only supports Chrome version 80 (SessionNotCreated)\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+    "statusTrace" : "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)\r\n   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)\r\n   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeOptions options)\r\n   at TestTeamCity.Test.startBrowser() in C:\\Users\\fbombiela\\OneDrive - ENDAVA\\Documents\\TeamCityNUNIT\\TestNunitTeamCity\\TestNunitTeamCity\\Test.cs:line 37\r\n--TearDown\r\n   at TestTeamCity.Test.closeBrowser() in C:\\Users\\fbombiela\\OneDrive - ENDAVA\\Documents\\TeamCityNUNIT\\TestNunitTeamCity\\TestNunitTeamCity\\Test.cs:line 90",
+    "steps" : [ {
+      "name" : "test skipped because of beforeall failure",
+      "time" : {
+        "start" : 1593728632351,
+        "stop" : 1593728635512,
+        "duration" : 3161
+      },
+      "status" : "skipped",
+      "statusMessage" : "System.InvalidOperationException : session not created: This version of ChromeDriver only supports Chrome version 80 (SessionNotCreated)\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+      "statusTrace" : "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)\r\n   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)\r\n   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeOptions options)\r\n   at TestTeamCity.Test.startBrowser() in C:\\Users\\fbombiela\\OneDrive - ENDAVA\\Documents\\TeamCityNUNIT\\TestNunitTeamCity\\TestNunitTeamCity\\Test.cs:line 37\r\n--TearDown\r\n   at TestTeamCity.Test.closeBrowser() in C:\\Users\\fbombiela\\OneDrive - ENDAVA\\Documents\\TeamCityNUNIT\\TestNunitTeamCity\\TestNunitTeamCity\\Test.cs:line 90",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "96b27f221b73bb0c",
+        "name" : "Console Output",
+        "source" : "96b27f221b73bb0c.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "closeBrowser",
+    "time" : {
+      "start" : 1593728635508,
+      "stop" : 1593728635508,
+      "duration" : 0
+    },
+    "status" : "failed",
+    "statusMessage" : "System.InvalidOperationException : session not created: This version of ChromeDriver only supports Chrome version 80 (SessionNotCreated)\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+    "statusTrace" : "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)\r\n   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)\r\n   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeOptions options)\r\n   at TestTeamCity.Test.startBrowser() in C:\\Users\\fbombiela\\OneDrive - ENDAVA\\Documents\\TeamCityNUNIT\\TestNunitTeamCity\\TestNunitTeamCity\\Test.cs:line 37\r\n--TearDown\r\n   at TestTeamCity.Test.closeBrowser() in C:\\Users\\fbombiela\\OneDrive - ENDAVA\\Documents\\TeamCityNUNIT\\TestNunitTeamCity\\TestNunitTeamCity\\Test.cs:line 90",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "EN911223"
+  }, {
+    "name" : "testClass",
+    "value" : "TestTeamCity.Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "test"
+  }, {
+    "name" : "package",
+    "value" : "TestTeamCity.Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e81abf27bc630ec2.json",
+  "parameterValues" : [ ]
+}

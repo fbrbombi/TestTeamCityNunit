@@ -1,0 +1,132 @@
+{
+  "uid" : "f4779cd273c63b4d",
+  "name" : "test",
+  "fullName" : "TestTeamCity.Test.test",
+  "historyId" : "TestTeamCity.Test.test",
+  "time" : {
+    "start" : 1593728712964,
+    "stop" : 1593728718015,
+    "duration" : 5051
+  },
+  "description" : "\ncloseBrowser TearDown method failed\n",
+  "descriptionHtml" : "<p>closeBrowser TearDown method failed</p>\n",
+  "status" : "failed",
+  "statusMessage" : "TearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+  "statusTrace" : "--TearDown\r\n   at System.Threading.ThreadLocal`1.ToString()\r\n   at TestTeamCity.Test.closeBrowser() in C:\\Users\\fbombiela\\OneDrive - ENDAVA\\Documents\\TeamCityNUNIT\\TestNunitTeamCity\\TestNunitTeamCity\\Test.cs:line 94",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeall",
+    "time" : {
+      "start" : 1593728718002,
+      "stop" : 1593728718002,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "startBrowser",
+    "time" : {
+      "start" : 1593728718003,
+      "stop" : 1593728718003,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "\ncloseBrowser TearDown method failed\n",
+    "status" : "failed",
+    "statusMessage" : "TearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+    "statusTrace" : "--TearDown\r\n   at System.Threading.ThreadLocal`1.ToString()\r\n   at TestTeamCity.Test.closeBrowser() in C:\\Users\\fbombiela\\OneDrive - ENDAVA\\Documents\\TeamCityNUNIT\\TestNunitTeamCity\\TestNunitTeamCity\\Test.cs:line 94",
+    "steps" : [ {
+      "name" : "test",
+      "time" : {
+        "start" : 1593728712966,
+        "stop" : 1593728718010,
+        "duration" : 5044
+      },
+      "status" : "failed",
+      "statusMessage" : "TearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+      "statusTrace" : "--TearDown\r\n   at System.Threading.ThreadLocal`1.ToString()\r\n   at TestTeamCity.Test.closeBrowser() in C:\\Users\\fbombiela\\OneDrive - ENDAVA\\Documents\\TeamCityNUNIT\\TestNunitTeamCity\\TestNunitTeamCity\\Test.cs:line 94",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2dc3a592cb9b6b0b",
+        "name" : "Console Output",
+        "source" : "2dc3a592cb9b6b0b.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "closeBrowser",
+    "time" : {
+      "start" : 1593728718003,
+      "stop" : 1593728718003,
+      "duration" : 0
+    },
+    "status" : "failed",
+    "statusMessage" : "TearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+    "statusTrace" : "--TearDown\r\n   at System.Threading.ThreadLocal`1.ToString()\r\n   at TestTeamCity.Test.closeBrowser() in C:\\Users\\fbombiela\\OneDrive - ENDAVA\\Documents\\TeamCityNUNIT\\TestNunitTeamCity\\TestNunitTeamCity\\Test.cs:line 94",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "EN911223"
+  }, {
+    "name" : "testClass",
+    "value" : "TestTeamCity.Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "test"
+  }, {
+    "name" : "package",
+    "value" : "TestTeamCity.Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f4779cd273c63b4d.json",
+  "parameterValues" : [ ]
+}
